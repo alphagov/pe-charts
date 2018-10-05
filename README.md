@@ -7,6 +7,11 @@ They can also make it difficult for users to make use of the raw
 data if they want to combine it with data from another source or 
 collate it differently. 
 
+## TODO 
+There's still a lot to do to make the colours, fonts, data labels
+more accessible - this is really just a proof of the concept of 
+building the chart from the HTML table data. 
+
 ## Progressive enhancement
 
 GDS uses progressive enhancement to build pages that work as raw 
