@@ -7,11 +7,17 @@
     "node": "^8.9.1"
   },
   "dependencies": {
-    "lodash": "~> 4.17.5",
     "c3": "^0.6.7",
     "govuk-frontend": "^1.2.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1",
+    "lodash": "~> 4.17.5",
     "vue": "^2.5.17"
+  },
+  "scripts": {
+    "test": "snyk test"
+  },
+  "devDependencies": {
+    "snyk": "^1.100.1"
   }
 }
