@@ -1,0 +1,13 @@
+$govuk-global-styles: true;
+
+$govuk-assets-path: "/lib/assets/";
+
+// Manipulate chart labelling font-size
+// This screws the layout.
+/*
+.c3 * {
+    font-size: 16px;
+}
+//*/
+
+@import "node_modules/govuk-frontend/all";

@@ -1,0 +1,7 @@
+# npm
+.idea
+node_modules
+lib/css/*.css
+lib/assets
+lib/js/all.js
+lib/js/common.js

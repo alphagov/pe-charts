@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="node_modules/c3/c3.css" rel="stylesheet">
+    <!-- Load d3.js and c3.js -->
+    <script src="node_modules/d3/dist/d3.min.js" charset="utf-8"></script>
+    <script src="node_modules/c3/c3.min.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="lib/js/table-chart.js"></script>
+</head>
+<body>
+
+<div id="app">
+    {{ message }}
+
+    <table></table>
+
+    <div class="chart-wrapper" type="bar" series="rows" x-axis="People" y-axis="Volume">
+        <table id="test-table">
+            <caption>Test table</caption>
+            <thead>
+            <tr>
+                <th>Year</th>
+                <th>Person1</th>
+                <th>Person2</th>
+                <th>Person3</th>
+                <th>Person4</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>2018</th>
+                <td>12</td>
+                <td>9</td>
+                <td>15</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>2017</th>
+                <td>10</td>
+                <td>8</td>
+                <td>12</td>
+                <td>4</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <table></table>
+
+    <!--div id="chart"></div-->
+</div>
+<script src="lib/js/app.js"></script>
+</body>
+</html>
