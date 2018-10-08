@@ -24,6 +24,18 @@ You can install this and just add the `app.js` and
 with `table-chart.js` in the document head and `app.js` inside 
 the closing body tag. 
 
+You also need to load the npm installed versions of VueJS, C3 and 
+D3. If you have a different dependency management process you
+could include these from there or from a CDN.  
+
+```
+<link href="node_modules/c3/c3.css" rel="stylesheet">
+<script src="node_modules/d3/dist/d3.min.js" charset="utf-8"></script>
+<script src="node_modules/c3/c3.min.js"></script>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="lib/js/table-chart.js"></script>
+```
+
 You then need to add an app id to the body and a 
 `<div class="chart-wrapper"...>` around any tables you want to
 chart. See options in the use section below:
