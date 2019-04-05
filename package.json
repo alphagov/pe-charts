@@ -7,11 +7,12 @@
     "node": "^8.9.1"
   },
   "dependencies": {
-    "c3": "^0.6.7",
-    "govuk-frontend": "^1.2.0",
+    "c3": "^0.6.8",
+    "govuk-frontend": "^2.9.0",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1",
     "lodash": "~> 4.17.5",
+    "minimatch": "~> 3.0.2",
     "vue": "^2.5.17"
   },
   "scripts": {
