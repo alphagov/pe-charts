@@ -8,6 +8,10 @@ data if they want to combine it with data from another source or
 collate it differently. 
 
 ## TODO 
+
+I'd like to rewrite this more natively as a `Vue.component`. At 
+the moment it's not very vue-like in the way it works.  
+
 There's still a lot to do to make the colours, fonts, data labels
 more accessible - this is really just a proof of the concept of 
 building the chart from the HTML table data. 
