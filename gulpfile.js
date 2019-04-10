@@ -1,5 +1,6 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const concat = require('gulp-concat');
 
 gulp.task('copy_assets.static', function() {
   return gulp.src(['node_modules/govuk-frontend/assets/**'])
@@ -23,4 +24,17 @@ gulp.task('sass.pe', function () {
     .pipe(gulp.dest('lib/css'));
 });
 
-gulp.task('default', gulp.series('copy_assets', 'sass.gov', 'sass.pe'));
+gulp.task('concat.js', function() {
+    return gulp.src([
+        './node_modules/d3/dist/d3.min.js',
+        './node_modules/c3/c3.min.js',
+        './node_modules/vue/dist/vue.js',
+        './lib/js/all.js',
+        //'./lib/js/common.js',
+        './lib/js/table-chart.js'
+    ])
+    .pipe(concat('dist.js'))
+    .pipe(gulp.dest('./lib/js'));
+});
+
+gulp.task('default', gulp.series('copy_assets', 'sass.gov', 'sass.pe', 'concat.js'));
