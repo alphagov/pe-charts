@@ -45,17 +45,20 @@
     <main class="govuk-main-wrapper" id="main-content" role="main">
 
         <div class="chart-wrapper"
-             type="donut"
+             type="bar"
              series="rows"
              x-axis="Months"
              y-axis="Volume"
              above="false"
              ismultiple="false"
              smoothed="true"
-             stacked="false"
+             stacked="true"
              order="null"
-             palette="null"
+             palette='["#4B0F08","#8B2640","#A73D60","#D581B1","#E7A0D2"]'
+             rotated="true"
+             reversed="true"
         >
+            <!-- palette="["#084B0F","#408B26","#60A73D","#B1D581","#D2E7A0"]" -->
 
             <table id="test-table" class="govuk-table">
                 <caption>Stuff that happens a number of times each month over a few years</caption>

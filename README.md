@@ -142,7 +142,7 @@ palette='["#b1d581","#b10e1e"]'
 ### Attributes: rotated 
 Uses C3's axes rotated property to print horizontal bar charts.
 
-### Attributes: reverse 
+### Attributes: reversed
 For time series data you may want to list the
 table data in columns in descending order (recent first)
 but render the chart with time going left to right.
