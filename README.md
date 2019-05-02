@@ -133,8 +133,18 @@ If you want a pie chart ordered by biggest to smallest segment
 you can set `order="desc"` 
 
 ### Attributes: palette 
-At the moment the only valid palette option is `palette="govuk"`
-but this could be used to add greyscale or colour blindness 
-profiles. 
+There are a number of predefined palettes or you can pass a 
+json list of double quoted hex values 
+```
+palette='["#b1d581","#b10e1e"]'
+```
+
+### Attributes: rotated 
+Uses C3's axes rotated property to print horizontal bar charts.
+
+### Attributes: reverse 
+For time series data you may want to list the
+table data in columns in descending order (recent first)
+but render the chart with time going left to right.
 
  
