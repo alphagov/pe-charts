@@ -13,7 +13,7 @@ You can run the demo in docker by running
 
 ```
 docker-compose build
-docker-compose run demo bash -c "npm run server"
+docker-compose run --service-ports demo bash -c "npm run server"
 # Should run a server on http://localhost:8000
 ```
 
