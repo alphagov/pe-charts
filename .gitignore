@@ -8,3 +8,5 @@ lib/assets
 lib/js/all.js
 lib/js/common.js
 lib/js.dist.js
+geckodriver.log
+tests_output/

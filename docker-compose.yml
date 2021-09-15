@@ -1,4 +1,4 @@
-run:
+demo:
   build: .
   command: bash
   stdin_open: true

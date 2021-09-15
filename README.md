@@ -12,7 +12,7 @@ collate it differently.
 You can run the demo in docker by running
 
 ```
-docker-compose up
+docker-compose run demo bash -c "npm run server"
 # Should run a server on http://localhost:8000
 ```
 
@@ -25,6 +25,14 @@ If you want to view the example you should run
 Then you can run the code with an npm http server
 `http-server . -a 127.0.0.1 -p 8000`
 
+## End-to-end tests
+
+I've made a start on some end-to-end tests with nightwatch. You can run the
+tests in docker-compose as follows: 
+
+```
+docker-compose run demo bash -c "npm run server & npm run e2e"
+```
 
 ## TODO
 
