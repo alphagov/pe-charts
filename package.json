@@ -30,8 +30,6 @@
     "nightwatch": "^1.7.9",
     "node-sass": "^6.0.1",
     "selenium-webdriver": "^4.0.0-rc-1",
-    "snyk": "^1.714.0",
-    "vue-jest": "^3.0.7",
-    "vue-template-compiler": "^2.5.17"
+    "snyk": "^1.714.0"
   }
 }
