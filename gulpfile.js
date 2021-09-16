@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('node-sass'));
 const concat = require('gulp-concat');
 
 gulp.task('copy_assets.static', function() {
