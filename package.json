@@ -27,7 +27,7 @@
     "geckodriver": "^2.0.4",
     "gulp-concat": "^2.6.1",
     "jest": "^27.2.0",
-    "nightwatch": "^1.7.9",
+    "nightwatch": "^2.6.3",
     "node-sass": "^6.0.1",
     "selenium-webdriver": "^4.0.0-rc-1",
     "snyk": "^1.714.0"
