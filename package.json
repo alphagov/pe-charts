@@ -30,6 +30,6 @@
     "nightwatch": "^1.7.9",
     "node-sass": "^6.0.1",
     "selenium-webdriver": "^4.0.0-rc-1",
-    "snyk": "^1.714.0"
+    "snyk": "^1.1064.0"
   }
 }
